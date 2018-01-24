@@ -1,0 +1,73 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|VT323');
+
+    body {
+         background-color: #fff;
+    }
+    h1, h2, h3 {
+         border-style: solid;
+    border-color: green;
+    }
+    
+    h1, h2, h3 {
+        font-family: 'VT323', monospace;
+        font-size: 30px;
+        letter-spacing: 1.5px;
+    }
+    
+    p {
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+    }
+    
+   div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
+
+    
+    /*-- Estilo de Header --*/
+    
+    .header{
+        height: 600px;
+    }
+    .design-name{
+        display: block;
+        padding: 20px;
+        background:#4EF85B;
+        text-decoration: none;
+        color:#fff;
+    }
+    .design-name:hover{
+        background: white;
+        color:#F55F09;
+    }
+    .next,.viewall{
+        display: block;
+        padding: 20px;
+        background:#4EF85B;
+        text-decoration: none;
+        color:#fff;
+    }
+    .next:hover, .viewall:hover{
+         background: white;
+        color:#F55F09;
+    }
+    
+    .summary{
+        text-align: center;
+    }    
